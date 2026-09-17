@@ -1,103 +1,256 @@
-# Competitive Programming
+# Programming
 
-A C-focused competitive programming repository for solving algorithmic problems, practicing data structures, and sharpening problem-solving skills.
+This repository contains my **Programming and Data Structures practical programs** written in C.
 
-## Repository analysis
+I am using this repository to keep my programs in one place while learning and practicing different programming concepts, data structures, algorithms, and problem-solving techniques.
 
-- Primary language: C
-- Repository focus: competitive programming, algorithm implementation, and problem-solving practice
-- License: MIT
-- Project type: code-focused learning and coding challenge workspace
+The programs are arranged question-wise from **Q01 to Q53**, so it is easy to find a particular program and revise it later.
 
-This repository is structured as a clean starting point for storing problem solutions, reusable algorithms, and notes in a C environment. The emphasis is on efficiency, readability, and contest-style coding.
+---
 
-## Why this repository exists
+## About This Repository
 
-Competitive programming requires:
+This repository mainly contains programs based on:
 
-- fast and correct problem solving
-- strong understanding of algorithms and data structures
-- efficient C implementations for time-critical tasks
-- reusable templates for common patterns
+- C Programming
+- Arrays
+- Searching
+- Sorting
+- Hashing
+- Trees
+- Data Structures
+- Address Calculation
+- Algorithms
+- Problem Solving
 
-This repository is intended to help organize solutions and support consistent practice across a wide range of problems.
+Most of the programs are written as part of my regular programming practice and academic practical work.
 
-## Typical usage
+---
 
-Use this repository to:
+## Topics Covered
 
-- store solution files for different problems
-- practice contest-style coding in C
-- maintain reusable templates for common algorithms
-- track learning progress over time
+### C Programming
 
-## Suggested project structure
+- Basic C programs
+- Variables and data types
+- Input and output
+- Conditional statements
+- Loops
+- Functions
+- Arrays
+- Strings
+- Pointers
+
+### Arrays
+
+- 1D Arrays
+- 2D Arrays
+- Array operations
+- Insertion and deletion
+- Row Major Order
+- Column Major Order
+- Effective Address calculation
+
+### Searching
+
+- Linear Search
+- Binary Search
+- Different Binary Search problems
+
+### Sorting
+
+- Basic sorting techniques
+- Sorting based problems
+- Comparison of different approaches
+
+### Hashing
+
+- Hashing
+- Hash Functions
+- Collision handling
+- Linear Probing
+- Quadratic Probing
+- Separate Chaining
+
+### Trees
+
+- Tree creation
+- Node counting
+- Leaf node counting
+- Internal node counting
+- Height of a tree
+- Tree traversal and related problems
+
+### Algorithms & Problem Solving
+
+- Algorithm implementation
+- Logical problem solving
+- Time complexity
+- Space complexity
+- Efficient approaches
+
+---
+
+## Programs
+
+I have currently worked on **53 programs**, organized in the following format:
+
+```text
+Q01
+Q02
+Q03
+...
+Q53
+```
+
+Each program is kept in a separate folder wherever required.
+
+Example:
+
+```text
+Q01-ProblemName/
+└── solution.c
+```
+
+This makes it easier for me to work on individual programs without mixing different solutions together.
+
+---
+
+## Repository Structure
 
 ```text
 Competitive_Programming/
+│
+├── Q01-.../
+│   └── solution.c
+│
+├── Q02-.../
+│   └── solution.c
+│
+├── Q03-.../
+│   └── solution.c
+│
+├── ...
+│
+├── Q51-.../
+│   └── solution.c
+│
+├── Q52-.../
+│   └── solution.c
+│
+├── Q53-.../
+│   └── solution.c
+│
 ├── README.md
-├── src/
-│   ├── basics/
-│   ├── graphs/
-│   ├── dynamic_programming/
-│   ├── greedy/
-│   └── number_theory/
-├── include/
-│   └── helpers.h
-├── test/
-│   └── sample_cases/
-├── docs/
-│   └── notes/
-└── Makefile
+└── LICENSE
 ```
 
-## Getting started
+---
 
-Make sure you have a C compiler installed, such as GCC.
+## How I Run the Programs
+
+I use **GCC** to compile and run the C programs.
+
+For example:
 
 ```bash
-gcc -O2 -std=c11 main.c -o main
-./main
+gcc solution.c -o solution
 ```
 
-For a project with multiple files:
+Then:
 
 ```bash
-gcc -O2 -std=c11 src/*.c -o solution
+./solution
 ```
 
-## Common competitive programming patterns in C
+On Windows:
 
-- arrays and strings
-- sorting and searching
-- graph traversal (DFS/BFS)
-- shortest path algorithms
-- dynamic programming
-- greedy strategies
-- bit manipulation
-- prefix sums and sliding window techniques
+```bash
+solution.exe
+```
 
-## Best practices
+---
 
-- keep code modular and readable
-- write efficient I/O for large input
-- prefer iterative approaches where needed
-- validate edge cases before finalizing
-- document assumptions and complexity clearly
+## What I am Learning
 
-## Contribution
+While working on these programs, I am mainly focusing on understanding the logic behind the programs instead of just writing the code.
 
-Feel free to add:
+Some of the things I am practicing are:
 
-- new problem solutions
-- reusable utility functions
-- algorithm templates
-- notes and explanations
+- How different data structures work
+- How algorithms solve a problem
+- How data is stored in memory
+- How to choose an appropriate algorithm
+- How to calculate time and space complexity
+- How to improve a solution
+- How to write clean and understandable C code
+
+---
+
+## Complexity
+
+For algorithm-based programs, I am also trying to understand their time and space complexity.
+
+Some common complexities are:
+
+```text
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n²)
+```
+
+Understanding complexity helps in knowing how a program behaves when the input size increases.
+
+---
+
+## Purpose
+
+I created this repository mainly for my **programming practice, college practicals, revision and DSA preparation**.
+
+I will keep adding more programs as I learn new concepts.
+
+---
+
+## Progress
+
+```text
+Q01 ─────────────────────────────── Q53
+ │                                    │
+Started                            Current
+                                      ↓
+                                   53 Programs
+```
+
+The repository is still a work in progress, and I will continue updating it with new programs and concepts.
+
+---
+
+## Tools
+
+- C
+- GCC
+- Visual Studio Code
+- Git
+- GitHub
+
+---
+
+## Author
+
+**Md Danish Raza**
+
+GitHub: [mddanish-31](https://github.com/mddanish-31)
+
+---
 
 ## License
 
 This project is licensed under the MIT License.
 
-## Summary
+---
 
-This repository is a focused C-based competitive programming workspace designed for algorithm practice, problem-solving, and efficient implementation. With a single-language C setup, it is well-suited for contests, training sessions, and personal learning goals.
+⭐ This repository is mainly for learning, practice and keeping track of my programming journey.
+
+**Keep Coding 🚀**
